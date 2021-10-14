@@ -150,7 +150,7 @@ a {
 }
 
 .forgot-userID-password {
-  padding: 0.15em 0;
+  padding: 0.1em 0;
   margin-right: 0.65em;
   font-size: 0.75em;
   display: flex;
@@ -179,4 +179,123 @@ a {
 
 .fa-lock {
   margin-right: 0.5em;
+}
+
+/* Main Section */
+
+.main {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid pink;
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+}
+
+.logos img {
+  display: block;
+  width: 700px;
+}
+
+.form-section {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 2em 2em 1em 2em;
+  border: 1px solid #c7c7c7;
+  border-bottom: none;
+}
+
+.form-cta {
+  color: #434447;
+  margin-bottom: 1em;
+}
+
+.form-cta h2 {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+
+.form-cta p,
+.form-cta a {
+  font-size: 0.95em;
+  font-weight: 300;
+}
+
+/* Main Section - Form */
+
+form label {
+  display: block;
+  text-align: left;
+  font-size: 0.85em;
+  margin-top: 3em;
+  margin-bottom: 1em;
+}
+
+form label:first-child {
+  margin-top: 2em;
+}
+
+form input {
+  box-sizing: border-box;
+  width: 100%;
+  border: 1px solid #c7c7c7;
+  padding: 0.5em;
+  border-radius: 0.25em;
+}
+
+.recommended {
+  font-weight: 300;
+}
+
+.additional-phone-info {
+  text-align: left;
+  font-size: 0.65em;
+  margin-top: 0.75em;
+}
+
+.submit-btn {
+  width: 100%;
+  font-size: 0.95em;
+  font-weight: 300;
+  background-color: #0077c5;
+  color: white;
+  padding: 0.75em 2em;
+  border: none;
+  border-radius: 0.25em;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.terms-warning {
+  font-size: 0.85em;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 1.5em;
+  margin-bottom: 1em;
+}
+
+.reCAPTCHA {
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 0.7em;
+  font-weight: 300;
+  background-color: #eceef1;
+  width: 100%;
+  border: 1px solid #c7c7c7;
+  border-top: 0px;
+  padding: 2em 0;
+}
+
+/* Legal info Section */
+
+.legal-info {
+  /* box-sizing: border-box; */
+  text-align: center;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid green;
 }
