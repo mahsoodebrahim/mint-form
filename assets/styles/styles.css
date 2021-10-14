@@ -127,3 +127,56 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+/* Universal Styles */
+
+body {
+  background-color: #eceef1;
+  color: #595959;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #1280c8;
+}
+
+/* Header Section */
+
+.sign-in-cta {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.7em 2.25em;
+}
+
+.forgot-userID-password {
+  padding: 0.15em 0;
+  margin-right: 0.65em;
+  font-size: 0.75em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.forgot-userID-password a {
+  display: block;
+  margin-bottom: 0.1em;
+}
+
+.sign-in {
+  display: flex;
+  align-items: center;
+}
+
+.sign-in a {
+  color: white;
+  font-size: 0.8em;
+  padding: 0.75em 1.5em;
+  border: 1px solid black;
+  border-radius: 0.25em;
+  background-color: #0077c5;
+}
+
+.fa-lock {
+  margin-right: 0.5em;
+}
