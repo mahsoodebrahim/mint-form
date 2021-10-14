@@ -15,69 +15,71 @@
 </head>
 
 <body>
-  <header>
-    <div class="sign-in-cta">
-      <div class="forgot-userID-password">
-        <p>Already have an Intuit account?</p>
-        <a href="#">
-          <p>I forgot my User ID or Password</p>
-        </a>
+  <div class="initial-view">
+    <header>
+      <div class="sign-in-cta">
+        <div class="forgot-userID-password">
+          <p>Already have an Intuit account?</p>
+          <a href="#">
+            <p>I forgot my User ID or Password</p>
+          </a>
+        </div>
+        <div class="sign-in">
+          <a href="#"><i class="fas fa-lock fa-lg"></i>Sign In</a>
+        </div>
       </div>
-      <div class="sign-in">
-        <a href="#"><i class="fas fa-lock fa-lg"></i>Sign In</a>
+    </header>
+
+    <section class="main">
+      <div class="logos">
+        <a href="#"><img
+            src="./assets/images/4-Brand-Ecosystem-Color-2-Line-Logo.4-Brand-Ecosystem-Color-2-Line-Logo@1x.png"
+            alt="4-Brand-Ecosystem"></a>
       </div>
-    </div>
-  </header>
 
-  <section class="main">
-    <div class="logos">
-      <a href="#"><img
-          src="./assets/images/4-Brand-Ecosystem-Color-2-Line-Logo.4-Brand-Ecosystem-Color-2-Line-Logo@1x.png"
-          alt="4-Brand-Ecosystem"></a>
-    </div>
+      <div class="form-section">
+        <section class="form-cta">
+          <h2>Create an Intuit account</h2>
+          <p>One account for everything Intuit, including Mint.</p>
+          <a href="#">Learn more</a>
+        </section>
 
-    <div class="form-section">
-      <section class="form-cta">
-        <h2>Create an Intuit account</h2>
-        <p>One account for everything Intuit, including Mint.</p>
-        <a href="#">Learn more</a>
-      </section>
+        <form action="#">
+          <label for="email">Email address</label>
+          <input type="email" name="email" id="email">
 
-      <form action="#">
-        <label for="email">Email address</label>
-        <input type="email" name="email" id="email">
+          <label for="phone">Phone <span class="recommended">(recommended)</span></label>
+          <input type="tel" name="phone" id="phone">
+          <p class="additional-phone-info">Standard call, message, or data rates apply.</p>
 
-        <label for="phone">Phone <span class="recommended">(recommended)</span></label>
-        <input type="tel" name="phone" id="phone">
-        <p class="additional-phone-info">Standard call, message, or data rates apply.</p>
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password">
 
-        <label for="password">Password</label>
-        <input type="password" name="password" id="password">
+          <button type="submit" class="submit-btn"><i class="fas fa-lock fa-lg"></i>Create Account</button>
+        </form>
 
-        <button type="submit" class="submit-btn"><i class="fas fa-lock fa-lg"></i>Create Account</button>
-      </form>
+        <p class="terms-warning">By selecting Create Account, you agree to out <a href="#">Terms</a> and have read and
+          acknowledge our <a href="#">Global Privacy Statement</a>.</p>
+      </div>
 
-      <p class="terms-warning">By selecting Create Account, you agree to out <a href="#">Terms</a> and have read and
-        acknowledge our <a href="#">Global Privacy Statement</a>.</p>
-    </div>
+      <div class="reCAPTCHA">
+        <p>Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Use</a>.</p>
+      </div>
 
-    <div class="reCAPTCHA">
-      <p>Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Use</a>.</p>
-    </div>
+    </section>
 
-  </section>
+    <section class="legal-info">
+      <div>
+        <a href="#">Legal</a>
+        <a href="#">Privacy</a>
+        <a href="#">Security</a>
+      </div>
+      <p>&copy; Intuit, Inc. All rights reserved. Intuit, Quickbooks, QB, TurboTax, ProConnect and Mint are registered
+        trademarks of Intuit Inc. <br>Terms and conditions, features, support, pricing, and service options subject to
+        change without notice.</p>
+    </section>
 
-  <section class="legal-info">
-    <div>
-      <a href="#">Legal</a>
-      <a href="#">Privacy</a>
-      <a href="#">Security</a>
-    </div>
-    <p>&copy; Intuit, Inc. All rights reserved. Intuit, Quickbooks, QB, TurboTax, ProConnect and Mint are registered
-      trademarks of Intuit Inc. <br>Terms and conditions, features, support, pricing, and service options subject to
-      change without notice.</p>
-  </section>
-
+  </div>
   <footer>
     <a href="#">
       <h4>Privacy Statement</h4>

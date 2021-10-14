@@ -141,6 +141,10 @@ a {
   color: #1280c8;
 }
 
+.initial-view {
+  height: 100vh;
+}
+
 /* Header Section */
 
 .sign-in-cta {
@@ -300,11 +304,25 @@ form input {
 }
 
 .legal-info a {
-  margin-right: 1.25em;
+  margin-right: 0.5em;
   color: #434447;
 }
 
 .legal-info p {
   margin-top: 0.35em;
   line-height: 1.5em;
+}
+
+/* Footer Section */
+
+footer {
+  height: 1.5em;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding: 1.5em;
+}
+
+footer a {
+  font-size: 0.85em;
 }
